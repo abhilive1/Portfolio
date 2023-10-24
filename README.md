@@ -1,2 +1,2 @@
 # Portfolio
-This is my short portfolio, here i wrote a brief explanation of my work.
+This is my short portfoliod website. Here i wrote a brief explanation of my work.
