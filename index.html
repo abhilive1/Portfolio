@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="<X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio Website - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b3f6dcf405.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                       
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Content Creator</p>
+                    <h1>Hi, I'm <span>Abhishek Gupta</span><br> from India</h1>
+                </div>
+            </div>
+        </div>
+<!--------------------about---------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Abhi-backgroung.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Hello, everyone my name is Abhishek Gupta.<br>I'm doing Btech from NIT Trichy. I'm a content creator.<br>
+                        where I guide JEE Aspirant and make them motivated to run towards their path.</p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Competitive Coding</span><br>Web Development</li>
+                                <li><span>Content Creator</span><br>Influencer</li>
+                                <li><span>Stoke Trader</span><br></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>Content Creator</li>
+                                <li><span>2020 - Current</span><br>Stoke Trading</li>
+                                <li><span>2022 - Current</span><br>Web Development</li>
+                                <li><span>2022 - Current</span><br>Data Structure and Algorithm</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-2025</span><br>National Institute of Technology, Trichy</li>
+                                <li><span>2018-2020</span><br>Kunwer Convent School, Ballia</li>
+                                <li><span>2013-2018</span><br>Lucent International School, Dehradun</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--        ---------------services---------------->
+       <div id="services">
+           <div class="container">
+               <h1 class="sub-title">My Service</h1>
+               <div class="services-list">
+                   <div>
+                      <i class="fa-solid fa-code"></i>
+                       <h2>Web Design</h2>
+                       <p>Web design is the process of creating the visual and functional elements of websites that are intended to be viewed and interacted with through web browsers.</p>
+                       <a href="#">Learn more</a>
+                   </div>
+                   <div>
+                      <i class="fa-solid fa-keyboard"></i>
+                       <h2>Competitive Coding</h2>
+                       <p>Competitive coding involves solving a variety of algorithmic and mathematical problems. These problems can range from simple to highly complex and can cover a wide range of topics.</p>
+                       <a href="#">Learn more</a>
+                   </div>
+                   <div>
+                      <i class="fa-brands fa-youtube"></i>
+                       <h2>Content Creator</h2>
+                       <p>I have a Youtube channel, where i create my content related to Engineering college life, because after seeing this student will get motivated and they will hard for their career.</p>
+                       <a href="#">Learn more</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+<!--       ---------------------------------portfolio-------------------->
+       <div id="portfolio">
+           <div class="container">
+               <h1 class="sub-title">My Work</h1>
+               <div class="work-list">
+                   <div class="work">
+                       <img src="images/pic4.jpg">
+                       <div class="layer">
+                           <h3>Web Development</h3>
+                           <p>The site connects you the talented people around the world. Join us for free.</p>
+                           <a href="https://www.geeksforgeeks.org/web-development/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+                   <div class="work">
+                       <img src="images/pic2.jpg">
+                       <div class="layer">
+                           <h3>Competitive Coding</h3>
+                           <p>Join our workplace to enhance your coding skills because people like you makes our environment next level.</p>
+                           <a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions&itm_source=geeksforgeeks&itm_medium=main_header&itm_campaign=practice_header"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+                   <div class="work">
+                       <img src="images/pic3.jpg">
+                       <div class="layer">
+                           <h3>Content Creator</h3>
+                           <p>Do you want to start your journey as the content creator then click here to be the part of our club and we will teach you everythings.</p>
+                           <a href="https://www.youtube.com/@abhilive1NITT"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+               </div>
+               <a href="https://leetcode.com/problemset/all/" class="btn">See More</a>
+           </div>
+       </div>
+<!--       -------------------------contact--------------------->
+      <div id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p><i class="fa-solid fa-paper-plane"></i>abhishek163@gmail.com</p>
+                      <p><i class="fa-solid fa-square-phone"></i>9305130931</p>
+                      <div class="social-icons">
+                          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                      <a href="images/Hello%20connection.pdf" download class="btn btn2">Download</a>
+                  </div>
+                  <div class="contact-right">
+                      <form name="submit-to-google-sheet">
+                         <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2 btn3">Submit</button>
+                      </form>
+                      <span id="msg"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="copyright">
+          <p>Made with <i class="fa-solid fa-heart"></i> by Abhishek Gupta</p>
+          </div>
+      </div>
+       
+       
+       
+       
+       
+       
+       
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+        
+        <script>
+        var sidemeu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+            
+        </script>
+        <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbysKSYQg1kz656GEMFpcbHaQhQSl0eO6eurUA-USQAQOf1kloq36bbP62UbCYFyh74OtA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },6000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+        
+        
+    </body>
+</html>
